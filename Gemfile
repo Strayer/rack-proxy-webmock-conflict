@@ -25,6 +25,8 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 
   gem 'rack-reverse-proxy', require: 'rack/reverse_proxy'
+
+  gem 'webmock'
 end
 
 group :development do
